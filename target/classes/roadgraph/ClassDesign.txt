@@ -1,0 +1,18 @@
+Class: MapGraph
+
+Modifications made to MapGraph (what and why):
+Added a parameter "vertices" which is a hash map that stores geographic locations and their corresponding map nodes. 
+
+Class name: MapNode
+Purpose and description of class: 
+MapNode class stores the geographic location and a list of its connecting edges.
+
+Class name: MapEdge
+Purpose and description of class: 
+MapEdge class stores the start, and the end points of an edge, its corresponding road name, road type and distance.
+
+Overall Design Justification (4-6 sentences):
+I used the "vertices" hash map inside the MapGraph class to store the geographic locations and their corresponding map nodes.
+For each MapNode, you can use the getEdges() function to get its connecting edges. 
+And for each MapEdge, you can use the getEnd() function to get the node's neighbors.
+getEdges() and getEnd() functions play a key role when implementing breath first search.
