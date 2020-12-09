@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="submission">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/basicgraph/submission.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

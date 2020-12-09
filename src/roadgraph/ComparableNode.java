@@ -5,14 +5,20 @@ import geography.GeographicPoint;
 public class ComparableNode implements Comparable<ComparableNode>{
 	GeographicPoint location;
 	Double dist;
+	Double duration;
 	
 	public ComparableNode() {
 		super();
 	}
 	
-	public ComparableNode(GeographicPoint location, Double dist) {
+//	public ComparableNode(GeographicPoint location, Double dist) {
+//		this.location = location;
+//		this.dist = dist;
+//	}
+
+	public ComparableNode(GeographicPoint location, Double duration) {
 		this.location = location;
-		this.dist = dist;
+		this.duration = duration;
 	}
 
 	public GeographicPoint getLocation() {
@@ -31,9 +37,18 @@ public class ComparableNode implements Comparable<ComparableNode>{
 		this.dist = dist;
 	}
 
+	public Double getDuration() {
+		return duration;
+	}
+
+	public void setDuration(Double duration) {
+		this.duration = duration;
+	}
+
 	@Override
 	public int compareTo(ComparableNode o) {
-		double result = (this.getDist() - o.getDist());
+//		double result = (this.getDist() - o.getDist());
+		double result = (this.getDuration() - o.getDuration());
 		return result < 0 ? -1 : result == 0 ? 0 : 1;
 	}
 }

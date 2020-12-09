@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4fc01bfd-f160-4017-be52-d202f05901e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/application/CLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/DataSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/GeoLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/MapApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/MarkerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/RouteVisualization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/SelectManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/TestApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/controllers/FetchController$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/controllers/FetchController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/controllers/FetchController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/controllers/FetchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/controllers/RouteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/services/GeneralService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/services/GeneralService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/services/RouteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basicgraph/DegreeGrader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basicgraph/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basicgraph/GraphAdjList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basicgraph/GraphAdjMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basicgraph/GraphGrader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/geography/GeographicPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/geography/RoadSegment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/ArrayTester$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/ArrayTester$TestJSO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/ArrayTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/GoogleMapView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/GoogleMapView$JSListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/GoogleMapView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/MapComponentInitializedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/MapNotInitializedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/MapReadyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/IJavascriptRuntime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/IWebEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/JavaFxWebEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/JavascriptArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/JavascriptEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/JavascriptFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/JavascriptFunctionLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/JavascriptObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/JavascriptRuntime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/event/EventHandlers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/event/GFXEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/event/MapStateEventType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/event/StateEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/event/UIEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/event/UIEventType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/Animation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/GMapObjectType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/GMapPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/GoogleMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/InfoWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/InfoWindowOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/LatLong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/LatLongBounds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/MVCArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/MapOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/MapShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/MapTypeIdEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/Marker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/MarkerOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/MarkerShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/Polyline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/PolylineOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/Projection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/javascript/object/Size.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/service/elevation/ElevationResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/service/elevation/ElevationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/service/elevation/ElevationServiceCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/service/elevation/ElevationStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/service/elevation/LocationElevationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/service/elevation/PathElevationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/service/geocoding/GeocodingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/ArcBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/CircleOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/FillableMapShapeOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/MapShapeOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/Polygon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/PolygonOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/Polyline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/PolylineOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/RectangleOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/shapes/StrokePosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/zoom/MaxZoomResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/zoom/MaxZoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/zoom/MaxZoomServiceCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gmapsfx/zoom/MaxZoomStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/html/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/html/routing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/html/visual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/mapmaker/DataFetcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/mapmaker/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/mapmaker/MapMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/roadgraph/AStarGrader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/roadgraph/CorrectAnswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/roadgraph/DijkstraGrader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/roadgraph/MapGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/roadgraph/SearchGrader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/GraphLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/RoadLineInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/week3example/Maze.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/week3example/MazeLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/week3example/MazeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roadgraph/ComparableNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/roadgraph/ComparableNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roadgraph/MapGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/roadgraph/MapGraph.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1lOwNTc4k1vwWvZHiwqNJoDjJ5y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MapApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.MapApp" />
+      <module name="UCSDGraphs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MapApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fc01bfd-f160-4017-be52-d202f05901e2" name="Default Changelist" comment="" />
+      <created>1607481406561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607481406561</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="524" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1607481978764">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="524" y="113" key="#com.intellij.ide.util.MemberChooser/0.23.1440.801@0.23.1440.801" timestamp="1607481978764" />
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1607482751380">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1607482751380" />
+    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1607482751379">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1607482751379" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1607482751378">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1607482751378" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1607482751379">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1607482751379" />
+    <state x="425" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1607481411278">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="425" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.798@0.23.1440.798" timestamp="1607481411278" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/roadgraph/ComparableNode.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

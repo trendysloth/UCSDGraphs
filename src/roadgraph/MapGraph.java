@@ -24,13 +24,14 @@ import util.GraphLoader;
  * 
  * A class which represents a graph of geographic locations
  * Nodes in the graph are intersections between 
- * @param <MapEdge>
+ * @param
  *
  */
 public class MapGraph {
 	//TODO: Add your member variables here in WEEK 3
 	private HashMap<GeographicPoint, MapNode> vertices;
 	private HashMap<GeographicPoint, Double> dist;
+	private HashMap<GeographicPoint, Double> duration;
 	/** 
 	 * Create a new empty MapGraph 
 	 */
@@ -39,6 +40,7 @@ public class MapGraph {
 		// TODO: Implement in this constructor in WEEK 3
 		vertices = new HashMap<>();
 		dist = new HashMap<>();
+		duration = new HashMap<>();
 	}
 	
 	/**
@@ -238,9 +240,11 @@ public class MapGraph {
 		
 		for (GeographicPoint point : vertices.keySet()) {
 			if (point.equals(start)) {
-				dist.put(point, 0.0);
+//				dist.put(point, 0.0);
+				duration.put(point, 0.0);
 			} else {
-				dist.put(point, Double.MAX_VALUE);
+//				dist.put(point, Double.MAX_VALUE);
+				duration.put(point, Double.MAX_VALUE);
 			}
 		}
 		while (!q.isEmpty()) {
@@ -254,19 +258,39 @@ public class MapGraph {
 				}
 			}
 			
-			Double currentDist = dist.get(node.getLocation());
+//			Double currentDist = dist.get(node.getLocation());
+			Double currentDuration = duration.get(node.getLocation());
 			GeographicPoint current = node.getLocation();
 			MapNode mapNode = vertices.get(current);
 			
 			for (MapEdge edge : mapNode.getEdges()) {
-				GeographicPoint currNeighbor = edge.getEnd();		
-				Double currNeighborDist = dist.get(currNeighbor);
-				Double newCurrNeighborDist = currentDist + edge.getDistance();
-				if (newCurrNeighborDist < currNeighborDist) {
-					dist.put(currNeighbor, newCurrNeighborDist);
-					parentMap.put(currNeighbor, current);
-					q.add(new ComparableNode(currNeighbor, newCurrNeighborDist));
+				GeographicPoint currNeighbor = edge.getEnd();
+				String roadType = edge.getRoadType();
+				Double speedLimit;
+				if (roadType.equals("primary")) {
+					speedLimit = 65.0;
+				} else if (roadType.equals("secondary")) {
+					speedLimit = 45.0;
+				} else if (roadType.equals("residential")) {
+					speedLimit = 30.0;
+				} else {
+					speedLimit = 15.0;
 				}
+//				Double currNeighborDist = dist.get(currNeighbor);
+//				Double newCurrNeighborDist = currentDist + edge.getDistance();
+//				if (newCurrNeighborDist < currNeighborDist) {
+//					dist.put(currNeighbor, newCurrNeighborDist);
+//					parentMap.put(currNeighbor, current);
+//					q.add(new ComparableNode(currNeighbor, newCurrNeighborDist));
+//				}
+				Double currNeighborDuration = duration.get(currNeighbor);
+				Double newCurrNeighborDuration = currentDuration + edge.getDistance() / speedLimit;
+				if (newCurrNeighborDuration < currNeighborDuration) {
+					duration.put(currNeighbor, newCurrNeighborDuration);
+					parentMap.put(currNeighbor, current);
+					q.add(new ComparableNode(currNeighbor, newCurrNeighborDuration));
+				}
+
 			}
 		}
 		System.out.println(numOfNodesExplored);
@@ -298,7 +322,6 @@ public class MapGraph {
 											 GeographicPoint goal, Consumer<GeographicPoint> nodeSearched)
 	{
 		// TODO: Implement this method in WEEK 4
-		
 		// Hook for visualization.  See writeup.
 		//nodeSearched.accept(next.getLocation());
 		Integer numOfNodesExplored = 0;
@@ -309,9 +332,11 @@ public class MapGraph {
 		
 		for (GeographicPoint point : vertices.keySet()) {
 			if (point.equals(start)) {
-				dist.put(point, 0.0);
+//				dist.put(point, 0.0);
+				duration.put(point, 0.0);
 			} else {
-				dist.put(point, Double.MAX_VALUE);
+//				dist.put(point, Double.MAX_VALUE);
+				duration.put(point, Double.MAX_VALUE);
 			}
 		}
 		
@@ -321,29 +346,42 @@ public class MapGraph {
 			if (!visited.contains(node)) {
 				visited.add(node);
 				if (node.getLocation().equals(goal)) {
-					System.out.println(numOfNodesExplored);
+//					System.out.println(numOfNodesExplored);
 					return constructPath(start, goal, parentMap);
 				}
 			}
 			
-			Double currentDist = dist.get(node.getLocation());
-			
+//			Double currentDist = dist.get(node.getLocation());
+			Double currentDuration = duration.get(node.getLocation());
 			GeographicPoint current = node.getLocation();
 			MapNode mapNode = vertices.get(current);
 			
 			for (MapEdge edge : mapNode.getEdges()) {
-				GeographicPoint currNeighbor = edge.getEnd();	
-				Double currHeruistics = dist.get(currNeighbor);
-				Double newCurrNeighborHeruistics = currentDist + edge.getDistance() + currNeighbor.distance(goal);
-				
+				GeographicPoint currNeighbor = edge.getEnd();
+
+				String roadType = edge.getRoadType();
+				Double speedLimit;
+				if (roadType.equals("primary")) {
+					speedLimit = 65.0;
+				} else if (roadType.equals("secondary")) {
+					speedLimit = 45.0;
+				} else if (roadType.equals("residential")) {
+					speedLimit = 30.0;
+				} else {
+					speedLimit = 15.0;
+				}
+
+				Double currHeruistics = duration.get(currNeighbor);
+				Double newCurrNeighborHeruistics = currentDuration + edge.getDistance() / speedLimit + currNeighbor.distance(goal);
+
 				if (newCurrNeighborHeruistics < currHeruistics) {
-					dist.put(currNeighbor, newCurrNeighborHeruistics);
+					duration.put(currNeighbor, newCurrNeighborHeruistics);
 					parentMap.put(currNeighbor, current);
 					q.add(new ComparableNode(currNeighbor, newCurrNeighborHeruistics));
 				}
 			}
 		}
-		System.out.println(numOfNodesExplored);
+//		System.out.println(numOfNodesExplored);
 		return null;
 	}
 

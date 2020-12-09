@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="roadgraph1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/roadgraph/week3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/roadgraph/week4.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
